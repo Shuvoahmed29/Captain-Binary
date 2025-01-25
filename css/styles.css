@@ -2,9 +2,19 @@
     background-color: #0D1224;
 }
 
+
+
 /* Nav Bar */
-.margin-left{
-    margin-left: 200px;
+@media (min-width:550px) {
+    .margin-sm-left{
+        margin-left: 40px;
+    }
+}
+
+@media (min-width:551px) and (max-width:1600px) {
+    .margin-lg-left{
+        margin-left: 200px;
+    }
 }
 .margin-right{
     margin-right: 190px;
@@ -25,13 +35,25 @@ main{
 }
 
 /* Main Body */
-.margin-xy{
-    margin-left: 100px;
-    margin-right: 80px;
+@media (min-width:550px) {
+    .font-sm{
+        font-size: 10px;
+    }
 }
-.Padding-xy{
-    padding-left: 205px;
-    padding-right: 170px;
+
+html,
+body{
+	overflow-x:hidden;
+	margin:0;
+	scroll-behavior:smooth;
+    background-color: #0D1224;
+	
+}
+
+@media (min-width:551px) and (max-width:1600px) {
+    .font-lg{
+        font-size: 30px;
+    }
 }
 
 .Middle{
@@ -68,10 +90,6 @@ main{
     filter: brightness(0.8);
 }
 
-.Padding-xy1{
-    padding-left: 220px;
-    padding-right: 200px;
-}
 
 .Image{
     height: 360px;
